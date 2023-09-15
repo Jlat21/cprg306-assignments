@@ -1,10 +1,13 @@
+import StudentInfo from "./StudentInfo/StudentInfo";
+import Link from "next/link";
 
 export default function Page() {
   return (
-    <div>
-      <h1 className="text-4xl m-5">Page</h1>
-      <p className="text-2xl m1">My page</p>
-    </div>
+    <main>
+      <h1 className="text-4xl m-5">CPRG 306: Web Development 2 - Assignments</h1>
+      <StudentInfo />
+      <Link href="/week2">Week 2</Link>
+    </main>
 
   )
   
